@@ -12,6 +12,9 @@ const NavBar = () => {
       <h1 className='nav-logo'>Tienda Comando Valle</h1>
       <div className='nav-links'>
       <Link className='nav-link' to={ '/' }>Home</Link>
+      <Link className='nav-link' to={ '/category/remera politica' }>Remeras politica</Link>
+      <Link className='nav-link' to={ '/category/remeras rock nacional' }>Remeras rock nacional</Link>
+      <Link className='nav-link' to={ '/orderSearch' }>Bucar orden</Link>
       <Link className='nav-link' to={ '/cart' }>Carrito
       {totalItems > 0 ? <span className='cart-count'>{totalItems}</span> : null}
       </Link>
